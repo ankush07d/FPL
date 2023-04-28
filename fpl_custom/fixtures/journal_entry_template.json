@@ -1,0 +1,48 @@
+[
+ {
+  "accounts": [
+   {
+    "account": "Collection Expenses - FPL",
+    "parent": "Collection template",
+    "parentfield": "accounts",
+    "parenttype": "Journal Entry Template"
+   },
+   {
+    "account": "Provision for Expense - FPL",
+    "parent": "Collection template",
+    "parentfield": "accounts",
+    "parenttype": "Journal Entry Template"
+   }
+  ],
+  "company": "FPL Technologies Private Limited",
+  "docstatus": 0,
+  "doctype": "Journal Entry Template",
+  "is_opening": "No",
+  "modified": "2022-12-28 15:26:00.712017",
+  "multi_currency": 0,
+  "name": "Collection template",
+  "naming_series": "ACC-JV-.YYYY.-",
+  "template_title": "Collection template",
+  "voucher_type": "Journal Entry"
+ },
+ {
+  "accounts": [
+   {
+    "account": "Entertainment Expenses - FPL",
+    "parent": "Entertainment Expenses related",
+    "parentfield": "accounts",
+    "parenttype": "Journal Entry Template"
+   }
+  ],
+  "company": "FPL Technologies Private Limited",
+  "docstatus": 0,
+  "doctype": "Journal Entry Template",
+  "is_opening": "No",
+  "modified": "2023-01-24 18:44:44.756558",
+  "multi_currency": 0,
+  "name": "Entertainment Expenses related",
+  "naming_series": "ACC-JV-.YYYY.-",
+  "template_title": "Entertainment Expenses related",
+  "voucher_type": "Journal Entry"
+ }
+]

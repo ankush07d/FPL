@@ -1,0 +1,777 @@
+[
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194A - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194A",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "TDS  on Interest",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.326840",
+  "name": "TDS - 194A",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194A",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 10.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Director Fees - No PAN / Invalid PAN - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Director Fees - No PAN / Invalid PAN",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Director Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.287480",
+  "name": "TDS - 194J - Director Fees - No PAN / Invalid PAN",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Director Fees - No PAN / Invalid PAN",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Director Fees - Individual - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Director Fees - Individual",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Director Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.256181",
+  "name": "TDS - 194J - Director Fees - Individual",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Director Fees - Individual",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 10.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Director Fees - Company - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Director Fees - Company",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Director Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.223228",
+  "name": "TDS - 194J - Director Fees - Company",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Director Fees - Company",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 10.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Professional Fees - No PAN / Invalid PAN - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Professional Fees - No PAN / Invalid PAN",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Professional Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.191198",
+  "name": "TDS - 194J - Professional Fees - No PAN / Invalid PAN",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Professional Fees - No PAN / Invalid PAN",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Professional Fees - Individual - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Professional Fees - Individual",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Professional Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.158192",
+  "name": "TDS - 194J - Professional Fees - Individual",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Professional Fees - Individual",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 10.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Professional Fees - Company - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Professional Fees - Company",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Professional Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.128035",
+  "name": "TDS - 194J - Professional Fees - Company",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Professional Fees - Company",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 10.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194I - Rent/Machinery - No PAN / Invalid PAN - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194I - Rent/Machinery - No PAN / Invalid PAN",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Rent-Plant / Machinery",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.094871",
+  "name": "TDS - 194I - Rent/Machinery - No PAN / Invalid PAN",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194I - Rent/Machinery - No PAN / Invalid PAN",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194I - Rent/Machinery - Individual - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194I - Rent/Machinery - Individual",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Rent-Plant / Machinery",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.063885",
+  "name": "TDS - 194I - Rent/Machinery - Individual",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194I - Rent/Machinery - Individual",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 2.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194I - Rent/Machinery - Company - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194I - Rent/Machinery - Company",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Rent-Plant / Machinery",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:33.023819",
+  "name": "TDS - 194I - Rent/Machinery - Company",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194I - Rent/Machinery - Company",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 2.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194I - Rent - No PAN / Invalid PAN - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194I - Rent - No PAN / Invalid PAN",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Rent",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.990254",
+  "name": "TDS - 194I - Rent - No PAN / Invalid PAN",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194I - Rent - No PAN / Invalid PAN",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194I - Rent - Individual - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194I - Rent - Individual",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Rent",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.959003",
+  "name": "TDS - 194I - Rent - Individual",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194I - Rent - Individual",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 10.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194I - Rent - Company - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194I - Rent - Company",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Rent",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.924055",
+  "name": "TDS - 194I - Rent - Company",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194I - Rent - Company",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 10.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194H - No PAN / Invalid PAN - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194H - No PAN / Invalid PAN",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Commission / Brokerage",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.890799",
+  "name": "TDS - 194H - No PAN / Invalid PAN",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194H - No PAN / Invalid PAN",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194H - Individual - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194H - Individual",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "1% Commission / Brokerage",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-11 12:05:19.393915",
+  "name": "TDS - 194H - Individual",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194H - Individual",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 5.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194H - Company - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194H - Company",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Commission / Brokerage",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.828399",
+  "name": "TDS - 194H - Company",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194H - Company",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 5.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194C - No PAN / Invalid PAN - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194C - No PAN / Invalid PAN",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Payment to Contractors (Single / Aggregate)",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.790825",
+  "name": "TDS - 194C - No PAN / Invalid PAN",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194C - No PAN / Invalid PAN",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194C - Individual - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194C - Individual",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Payment to Contractors (Single / Aggregate)",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.761417",
+  "name": "TDS - 194C - Individual",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194C - Individual",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 1.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194C - Company - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194C - Company",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Payment to Contractors (Single / Aggregate)",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.727926",
+  "name": "TDS - 194C - Company",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194C - Company",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 2.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 195 - Foreign Payments - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 195 - Foreign Payments",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Payment to Non-Resident",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.695697",
+  "name": "TDS - 195 - Foreign Payments",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 195 - Foreign Payments",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Technical Fees - No PAN / Invalid PAN - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Technical Fees - No PAN / Invalid PAN",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Technical Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.667192",
+  "name": "TDS - 194J - Technical Fees - No PAN / Invalid PAN",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Technical Fees - No PAN / Invalid PAN",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 20.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Technical Fees - Individual - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Technical Fees - Individual",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Technical Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.634878",
+  "name": "TDS - 194J - Technical Fees - Individual",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Technical Fees - Individual",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 2.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS - 194J - Technical Fees - Company - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS - 194J - Technical Fees - Company",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": "Technical Fees",
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.599763",
+  "name": "TDS - 194J - Technical Fees - Company",
+  "rates": [
+   {
+    "cumulative_threshold": 0.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS - 194J - Technical Fees - Company",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 2.0,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TCS - 206CR - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TCS - 206CR",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": null,
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:56:32.536340",
+  "name": "TCS - 206CR",
+  "rates": [
+   {
+    "cumulative_threshold": 5000000.0,
+    "from_date": "2022-04-01",
+    "parent": "TCS - 206CR",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 0.1,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ },
+ {
+  "accounts": [
+   {
+    "account": "TDS 194Q - FPL",
+    "company": "FPL Technologies Private Limited",
+    "parent": "TDS 194Q",
+    "parentfield": "accounts",
+    "parenttype": "Tax Withholding Category"
+   }
+  ],
+  "category_name": null,
+  "consider_party_ledger_amount": 0,
+  "docstatus": 0,
+  "doctype": "Tax Withholding Category",
+  "modified": "2023-01-10 15:55:22.368772",
+  "name": "TDS 194Q",
+  "rates": [
+   {
+    "cumulative_threshold": 5000000.0,
+    "from_date": "2022-04-01",
+    "parent": "TDS 194Q",
+    "parentfield": "rates",
+    "parenttype": "Tax Withholding Category",
+    "single_threshold": 1.0,
+    "tax_withholding_rate": 0.1,
+    "to_date": "2023-03-31"
+   }
+  ],
+  "round_off_tax_amount": 0,
+  "tax_on_excess_amount": 0
+ }
+]

@@ -1,0 +1,154 @@
+[
+ {
+  "allocate_payment_based_on_payment_terms": 1,
+  "docstatus": 0,
+  "doctype": "Payment Terms Template",
+  "modified": "2023-01-13 13:35:00.422856",
+  "name": "PA1_ERP Testing",
+  "template_name": "PA1_ERP Testing",
+  "terms": [
+   {
+    "credit_days": 3,
+    "credit_months": 0,
+    "description": "Payment 25% AFTER 3 days of Invoice",
+    "discount": 0.0,
+    "discount_type": "Percentage",
+    "discount_validity": 0,
+    "discount_validity_based_on": "Day(s) after invoice date",
+    "due_date_based_on": "Day(s) after invoice date",
+    "invoice_portion": 25.0,
+    "mode_of_payment": "",
+    "parent": "PA1_ERP Testing",
+    "parentfield": "terms",
+    "parenttype": "Payment Terms Template",
+    "payment_term": "PA1_ERP Testing"
+   },
+   {
+    "credit_days": 6,
+    "credit_months": 0,
+    "description": "Pay 75% after 6 days",
+    "discount": 0.0,
+    "discount_type": "Percentage",
+    "discount_validity": 0,
+    "discount_validity_based_on": "Day(s) after invoice date",
+    "due_date_based_on": "Day(s) after invoice date",
+    "invoice_portion": 75.0,
+    "mode_of_payment": null,
+    "parent": "PA1_ERP Testing",
+    "parentfield": "terms",
+    "parenttype": "Payment Terms Template",
+    "payment_term": "PA2_ERP Testing"
+   }
+  ]
+ },
+ {
+  "allocate_payment_based_on_payment_terms": 1,
+  "docstatus": 0,
+  "doctype": "Payment Terms Template",
+  "modified": "2023-01-17 14:59:36.641182",
+  "name": "Advance UAT",
+  "template_name": "Advance UAT",
+  "terms": [
+   {
+    "credit_days": 1,
+    "credit_months": 0,
+    "description": null,
+    "discount": 0.0,
+    "discount_type": "Percentage",
+    "discount_validity": 0,
+    "discount_validity_based_on": "Day(s) after invoice date",
+    "due_date_based_on": "Day(s) after invoice date",
+    "invoice_portion": 40.0,
+    "mode_of_payment": null,
+    "parent": "Advance UAT",
+    "parentfield": "terms",
+    "parenttype": "Payment Terms Template",
+    "payment_term": "Advance-PO"
+   },
+   {
+    "credit_days": 2,
+    "credit_months": 0,
+    "description": null,
+    "discount": 0.0,
+    "discount_type": "Percentage",
+    "discount_validity": 0,
+    "discount_validity_based_on": "Day(s) after invoice date",
+    "due_date_based_on": "Day(s) after invoice date",
+    "invoice_portion": 60.0,
+    "mode_of_payment": null,
+    "parent": "Advance UAT",
+    "parentfield": "terms",
+    "parenttype": "Payment Terms Template",
+    "payment_term": "PO-60% on invoice"
+   }
+  ]
+ },
+ {
+  "allocate_payment_based_on_payment_terms": 0,
+  "docstatus": 0,
+  "doctype": "Payment Terms Template",
+  "modified": "2023-01-19 17:24:24.244691",
+  "name": "PO-60% on invoice",
+  "template_name": "PO-60% on invoice",
+  "terms": [
+   {
+    "credit_days": 2,
+    "credit_months": 0,
+    "description": null,
+    "discount": 0.0,
+    "discount_type": "Percentage",
+    "discount_validity": 0,
+    "discount_validity_based_on": "Day(s) after invoice date",
+    "due_date_based_on": "Day(s) after invoice date",
+    "invoice_portion": 60.0,
+    "mode_of_payment": null,
+    "parent": "PO-60% on invoice",
+    "parentfield": "terms",
+    "parenttype": "Payment Terms Template",
+    "payment_term": "PO-60% on invoice"
+   },
+   {
+    "credit_days": 4,
+    "credit_months": 0,
+    "description": null,
+    "discount": 0.0,
+    "discount_type": "Percentage",
+    "discount_validity": 0,
+    "discount_validity_based_on": "Day(s) after invoice date",
+    "due_date_based_on": "Day(s) after invoice date",
+    "invoice_portion": 40.0,
+    "mode_of_payment": null,
+    "parent": "PO-60% on invoice",
+    "parentfield": "terms",
+    "parenttype": "Payment Terms Template",
+    "payment_term": "PO-40% on invoice"
+   }
+  ]
+ },
+ {
+  "allocate_payment_based_on_payment_terms": 0,
+  "docstatus": 0,
+  "doctype": "Payment Terms Template",
+  "modified": "2023-01-27 16:52:48.902774",
+  "name": "20 Days",
+  "template_name": "20 Days",
+  "terms": [
+   {
+    "credit_days": 20,
+    "credit_months": 0,
+    "description": null,
+    "discount": 0.0,
+    "discount_type": "Percentage",
+    "discount_validity": 0,
+    "discount_validity_based_on": "Day(s) after invoice date",
+    "due_date_based_on": "Day(s) after invoice date",
+    "invoice_portion": 100.0,
+    "mode_of_payment": null,
+    "parent": "20 Days",
+    "parentfield": "terms",
+    "parenttype": "Payment Terms Template",
+    "payment_term": "20 Days"
+   }
+  ]
+ }
+]

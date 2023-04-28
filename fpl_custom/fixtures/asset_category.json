@@ -1,0 +1,44 @@
+[
+ {
+  "accounts": [
+   {
+    "accumulated_depreciation_account": null,
+    "capital_work_in_progress_account": null,
+    "company_name": "FPL Technologies Private Limited",
+    "depreciation_expense_account": null,
+    "fixed_asset_account": "Computers - FPL",
+    "parent": "Laptop Apple Mac",
+    "parentfield": "accounts",
+    "parenttype": "Asset Category"
+   }
+  ],
+  "asset_category_name": "Laptop Apple Mac",
+  "docstatus": 0,
+  "doctype": "Asset Category",
+  "enable_cwip_accounting": 0,
+  "finance_books": [],
+  "modified": "2023-01-03 15:08:46.156176",
+  "name": "Laptop Apple Mac"
+ },
+ {
+  "accounts": [
+   {
+    "accumulated_depreciation_account": null,
+    "capital_work_in_progress_account": null,
+    "company_name": "FPL Technologies Private Limited",
+    "depreciation_expense_account": null,
+    "fixed_asset_account": "Computers - FPL",
+    "parent": "Laptop Other brands",
+    "parentfield": "accounts",
+    "parenttype": "Asset Category"
+   }
+  ],
+  "asset_category_name": "Laptop Other brands",
+  "docstatus": 0,
+  "doctype": "Asset Category",
+  "enable_cwip_accounting": 0,
+  "finance_books": [],
+  "modified": "2023-01-11 15:59:51.026131",
+  "name": "Laptop Other brands"
+ }
+]

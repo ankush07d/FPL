@@ -1,0 +1,200 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2023-03-14 18:04:02.018532",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2023-03-14 18:04:02.022996",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2023-03-14 18:04:02.028662",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.012282",
+  "name": "Verified",
+  "style": "Success",
+  "workflow_state_name": "Verified"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.019056",
+  "name": "Initiated",
+  "style": "Success",
+  "workflow_state_name": "Initiated"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.024951",
+  "name": "Transaction Completed",
+  "style": "Success",
+  "workflow_state_name": "Transaction Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.032042",
+  "name": "Completed",
+  "style": "Success",
+  "workflow_state_name": "Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.037461",
+  "name": "Verification Failed",
+  "style": "Danger",
+  "workflow_state_name": "Verification Failed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.042647",
+  "name": "Initiation Error",
+  "style": "Danger",
+  "workflow_state_name": "Initiation Error"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.048265",
+  "name": "Initiation Failed",
+  "style": "Danger",
+  "workflow_state_name": "Initiation Failed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.053970",
+  "name": "Transaction Failed",
+  "style": "Danger",
+  "workflow_state_name": "Transaction Failed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.061332",
+  "name": "Transaction Error",
+  "style": "Danger",
+  "workflow_state_name": "Transaction Error"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.068934",
+  "name": "Failed",
+  "style": "Danger",
+  "workflow_state_name": "Failed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.074531",
+  "name": "Transaction Pending",
+  "style": "Primary",
+  "workflow_state_name": "Transaction Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.079847",
+  "name": "Initiation Pending",
+  "style": "Primary",
+  "workflow_state_name": "Initiation Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.084860",
+  "name": "Processing",
+  "style": "Primary",
+  "workflow_state_name": "Processing"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-14 18:11:23.089905",
+  "name": "Partially Completed",
+  "style": "Primary",
+  "workflow_state_name": "Partially Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-04-10 11:29:54.307934",
+  "name": "DRAFT",
+  "style": "Success",
+  "workflow_state_name": "DRAFT"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-16 13:17:26.253755",
+  "name": "Cancelled",
+  "style": "",
+  "workflow_state_name": "Cancelled"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-16 13:17:26.350847",
+  "name": "User Approval",
+  "style": "",
+  "workflow_state_name": "User Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-16 13:17:26.387040",
+  "name": "Finance Approval",
+  "style": "",
+  "workflow_state_name": "Finance Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-03-16 13:17:26.420679",
+  "name": "User Manager Approval",
+  "style": "",
+  "workflow_state_name": "User Manager Approval"
+ }
+]

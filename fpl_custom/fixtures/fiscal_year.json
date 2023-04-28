@@ -1,0 +1,35 @@
+[
+ {
+  "auto_created": 0,
+  "companies": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Fiscal Year",
+  "is_short_year": 0,
+  "modified": "2022-12-28 03:46:14.572869",
+  "name": "2022-2023",
+  "year": "2022-2023",
+  "year_end_date": "2023-03-31",
+  "year_start_date": "2022-04-01"
+ },
+ {
+  "auto_created": 1,
+  "companies": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "parent": "2023-2024",
+    "parentfield": "companies",
+    "parenttype": "Fiscal Year"
+   }
+  ],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Fiscal Year",
+  "is_short_year": 0,
+  "modified": "2023-03-30 12:26:43.768605",
+  "name": "2023-2024",
+  "year": "2023-2024",
+  "year_end_date": "2024-03-31",
+  "year_start_date": "2023-04-01"
+ }
+]

@@ -1,0 +1,268 @@
+[
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "HSBC Bank - FPL",
+    "parent": "Cheque",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Cheque",
+  "modified": "2023-01-03 14:16:18.928166",
+  "name": "Cheque",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "Cash Coimbatore - FPL",
+    "parent": "Cash",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Cash",
+  "modified": "2023-01-03 14:15:58.689139",
+  "name": "Cash",
+  "type": "Cash"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "HSBC Bank - FPL",
+    "parent": "Credit Card",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Credit Card",
+  "modified": "2023-01-03 14:15:11.950572",
+  "name": "Credit Card",
+  "type": "Bank"
+ },
+ {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Wire Transfer",
+  "modified": "2022-12-28 03:46:07.065320",
+  "name": "Wire Transfer",
+  "type": "Bank"
+ },
+ {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Bank Draft",
+  "modified": "2022-12-28 03:46:07.069853",
+  "name": "Bank Draft",
+  "type": "Bank"
+ },
+ {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "x-9757 - PUNJAB NATIONAL BANK",
+  "modified": "2023-01-03 14:06:05.859301",
+  "name": "x-9757 - PUNJAB NATIONAL BANK",
+  "type": "Cash"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "ICICI Bank - FPL",
+    "parent": "x-9357 - ICICI BANK",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "x-9357 - ICICI BANK",
+  "modified": "2023-01-03 14:14:23.227454",
+  "name": "x-9357 - ICICI BANK",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "HSBC Bank - FPL",
+    "parent": "x-8001 - HSBC",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "x-8001 - HSBC",
+  "modified": "2023-01-03 14:14:02.946977",
+  "name": "x-8001 - HSBC",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "ICICI Bank - FPL",
+    "parent": "x-0464 - ICICI BANK",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "x-0464 - ICICI BANK",
+  "modified": "2023-01-03 14:13:49.317859",
+  "name": "x-0464 - ICICI BANK",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "Punjab National Bank - FPL",
+    "parent": "x-2969 - PUNJAB NATIONAL BANK",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "x-2969 - PUNJAB NATIONAL BANK",
+  "modified": "2023-01-03 14:13:33.951437",
+  "name": "x-2969 - PUNJAB NATIONAL BANK",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "Yes Bank - FPL",
+    "parent": "x-1346 - YES BANK",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "x-1346 - YES BANK",
+  "modified": "2023-01-03 14:13:19.792956",
+  "name": "x-1346 - YES BANK",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "HSBC Bank - FPL",
+    "parent": "x-0001 - HSBC",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "x-0001 - HSBC",
+  "modified": "2023-01-03 14:13:05.168376",
+  "name": "x-0001 - HSBC",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "HSBC Bank - FPL",
+    "parent": "Paytm",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Paytm",
+  "modified": "2023-01-03 14:14:51.730220",
+  "name": "Paytm",
+  "type": "Bank"
+ },
+ {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "NEFT",
+  "modified": "2023-01-03 14:07:44.610948",
+  "name": "NEFT",
+  "type": "Cash"
+ },
+ {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "RTGS",
+  "modified": "2023-01-03 14:08:02.544955",
+  "name": "RTGS",
+  "type": "Bank"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "Cash - FPL",
+    "parent": "ERP testing",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "ERP testing",
+  "modified": "2023-01-13 15:05:36.749971",
+  "name": "ERP testing",
+  "type": "Cash"
+ },
+ {
+  "accounts": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_account": "ERP_Testing - FPL",
+    "parent": "ERP_T",
+    "parentfield": "accounts",
+    "parenttype": "Mode of Payment"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "ERP_T",
+  "modified": "2023-01-13 13:29:29.796824",
+  "name": "ERP_T",
+  "type": "General"
+ }
+]

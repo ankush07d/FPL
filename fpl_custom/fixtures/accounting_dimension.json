@@ -1,0 +1,24 @@
+[
+ {
+  "dimension_defaults": [
+   {
+    "company": "FPL Technologies Private Limited",
+    "default_dimension": null,
+    "mandatory_for_bs": 0,
+    "mandatory_for_pl": 0,
+    "parent": "Profit Center",
+    "parentfield": "dimension_defaults",
+    "parenttype": "Accounting Dimension",
+    "reference_document": "Profit Center"
+   }
+  ],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Accounting Dimension",
+  "document_type": "Profit Center",
+  "fieldname": "profit_center",
+  "label": "Profit Center",
+  "modified": "2023-01-09 11:13:18.980322",
+  "name": "Profit Center"
+ }
+]

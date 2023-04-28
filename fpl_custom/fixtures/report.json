@@ -1,0 +1,491 @@
+[
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"columns\":[{\"label\":\"Supplier\",\"options\":\"Supplier\",\"fieldname\":\"supplier\",\"fieldtype\":\"Link\",\"width\":180,\"id\":\"supplier\",\"name\":\"Supplier\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"pan_id\",\"fieldtype\":\"Data\",\"label\":\"PAN ID\",\"insert_after_index\":1,\"link_field\":\"supplier\",\"doctype\":\"Supplier\",\"width\":100,\"id\":\"pan_id\",\"name\":\"PAN ID\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"msme\",\"fieldtype\":\"Select\",\"label\":\"MSME\",\"insert_after_index\":1,\"link_field\":\"supplier\",\"doctype\":\"Supplier\",\"options\":\"\\nYes\\nNo\",\"width\":100,\"id\":\"msme\",\"name\":\"MSME\",\"editable\":false,\"compareValue\":null},{\"label\":\"Section Code\",\"options\":\"Tax Withholding Category\",\"fieldname\":\"section_code\",\"fieldtype\":\"Link\",\"width\":180,\"id\":\"section_code\",\"name\":\"Section Code\",\"editable\":false,\"compareValue\":null},{\"label\":\"Entity Type\",\"fieldname\":\"entity_type\",\"fieldtype\":\"Data\",\"width\":180,\"id\":\"entity_type\",\"name\":\"Entity Type\",\"editable\":false,\"compareValue\":null},{\"label\":\"TDS Rate %\",\"fieldname\":\"tds_rate\",\"fieldtype\":\"Percent\",\"width\":90,\"id\":\"tds_rate\",\"name\":\"TDS Rate %\",\"editable\":false,\"compareValue\":null},{\"label\":\"Total Amount Credited\",\"fieldname\":\"total_amount_credited\",\"fieldtype\":\"Float\",\"width\":90,\"id\":\"total_amount_credited\",\"name\":\"Total Amount Credited\",\"editable\":false,\"compareValue\":null},{\"label\":\"Amount of TDS Deducted\",\"fieldname\":\"tds_deducted\",\"fieldtype\":\"Float\",\"width\":90,\"id\":\"tds_deducted\",\"name\":\"Amount of TDS Deducted\",\"editable\":false,\"compareValue\":null},{\"label\":\"Date of Transaction\",\"fieldname\":\"transaction_date\",\"fieldtype\":\"Date\",\"width\":90,\"id\":\"transaction_date\",\"name\":\"Date of Transaction\",\"editable\":false},{\"label\":\"Transaction Type\",\"fieldname\":\"transaction_type\",\"width\":90,\"id\":\"transaction_type\",\"name\":\"Transaction Type\",\"editable\":false,\"compareValue\":null},{\"label\":\"Reference No.\",\"fieldname\":\"ref_no\",\"fieldtype\":\"Dynamic Link\",\"options\":\"transaction_type\",\"width\":90,\"id\":\"ref_no\",\"name\":\"Reference No.\",\"editable\":false,\"compareValue\":null}]}",
+  "letter_head": "FPL Technologies Private Limited",
+  "modified": "2023-01-12 15:48:09.868624",
+  "module": "Accounts",
+  "name": "TDS Payable Monthly - FPL",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Purchase Invoice",
+  "reference_report": "TDS Payable Monthly",
+  "report_name": "TDS Payable Monthly - FPL",
+  "report_script": null,
+  "report_type": "Custom Report",
+  "roles": [
+   {
+    "parent": "TDS Payable Monthly - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "TDS Payable Monthly - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "TDS Payable Monthly - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Auditor"
+   },
+   {
+    "parent": "TDS Payable Monthly - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "TDS Payable Monthly - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier"
+   },
+   {
+    "parent": "TDS Payable Monthly - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier FPL"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"columns\":[{\"label\":\"Posting Date\",\"fieldname\":\"posting_date\",\"fieldtype\":\"Date\",\"options\":null,\"width\":90,\"id\":\"posting_date\",\"name\":\"Posting Date\",\"editable\":false},{\"label\":\"Supplier\",\"fieldname\":\"party\",\"fieldtype\":\"Link\",\"options\":\"Supplier\",\"width\":180,\"id\":\"party\",\"name\":\"Supplier\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"pan_id\",\"fieldtype\":\"Data\",\"label\":\"PAN ID\",\"insert_after_index\":1,\"link_field\":\"party\",\"doctype\":\"Supplier\",\"width\":100,\"id\":\"pan_id\",\"name\":\"PAN ID\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"msme\",\"fieldtype\":\"Select\",\"label\":\"MSME\",\"insert_after_index\":2,\"link_field\":\"party\",\"doctype\":\"Supplier\",\"options\":\"\\nYes\\nNo\",\"width\":100,\"id\":\"msme\",\"name\":\"MSME\",\"editable\":false,\"compareValue\":null},{\"label\":\"Payable Account\",\"fieldname\":\"party_account\",\"fieldtype\":\"Link\",\"options\":\"Account\",\"width\":180,\"id\":\"party_account\",\"name\":\"Payable Account\",\"editable\":false,\"compareValue\":null},{\"label\":\"Cost Center\",\"fieldname\":\"cost_center\",\"fieldtype\":\"Data\",\"options\":null,\"width\":120,\"id\":\"cost_center\",\"name\":\"Cost Center\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"profit_center\",\"fieldtype\":\"Link\",\"label\":\"Profit Center\",\"insert_after_index\":5,\"link_field\":\"voucher_no\",\"doctype\":\"Purchase Invoice\",\"options\":\"Profit Center\",\"width\":100,\"id\":\"profit_center\",\"name\":\"Profit Center\",\"editable\":false,\"compareValue\":null},{\"label\":\"Voucher Type\",\"fieldname\":\"voucher_type\",\"fieldtype\":\"Data\",\"options\":null,\"width\":120,\"id\":\"voucher_type\",\"name\":\"Voucher Type\",\"editable\":false,\"compareValue\":null},{\"label\":\"Voucher No\",\"fieldname\":\"voucher_no\",\"fieldtype\":\"Dynamic Link\",\"options\":\"voucher_type\",\"width\":180,\"id\":\"voucher_no\",\"name\":\"Voucher No\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"narration\",\"fieldtype\":\"Small Text\",\"label\":\"Narration\",\"insert_after_index\":8,\"link_field\":\"voucher_no\",\"doctype\":\"Purchase Invoice\",\"width\":100,\"id\":\"narration\",\"name\":\"Narration\",\"editable\":false,\"compareValue\":null},{\"label\":\"Due Date\",\"fieldname\":\"due_date\",\"fieldtype\":\"Date\",\"options\":null,\"width\":90,\"id\":\"due_date\",\"name\":\"Due Date\",\"editable\":false},{\"label\":\"Bill No\",\"fieldname\":\"bill_no\",\"fieldtype\":\"Data\",\"options\":null,\"width\":120,\"id\":\"bill_no\",\"name\":\"Bill No\",\"editable\":false,\"compareValue\":null},{\"label\":\"Bill Date\",\"fieldname\":\"bill_date\",\"fieldtype\":\"Date\",\"options\":null,\"width\":90,\"id\":\"bill_date\",\"name\":\"Bill Date\",\"editable\":false},{\"label\":\"Invoiced Amount\",\"fieldname\":\"invoiced\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"invoiced\",\"name\":\"Invoiced Amount\",\"editable\":false,\"compareValue\":null},{\"label\":\"Paid Amount\",\"fieldname\":\"paid\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"paid\",\"name\":\"Paid Amount\",\"editable\":false,\"compareValue\":null},{\"label\":\"Debit Note\",\"fieldname\":\"credit_note\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"credit_note\",\"name\":\"Debit Note\",\"editable\":false,\"compareValue\":null},{\"label\":\"Outstanding Amount\",\"fieldname\":\"outstanding\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"outstanding\",\"name\":\"Outstanding Amount\",\"editable\":false,\"compareValue\":null},{\"label\":\"Age (Days)\",\"fieldname\":\"age\",\"fieldtype\":\"Int\",\"options\":null,\"width\":80,\"id\":\"age\",\"name\":\"Age (Days)\",\"editable\":false,\"compareValue\":null},{\"label\":\"0-30\",\"fieldname\":\"range1\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"range1\",\"name\":\"0-30\",\"editable\":false,\"compareValue\":null},{\"label\":\"31-60\",\"fieldname\":\"range2\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"range2\",\"name\":\"31-60\",\"editable\":false,\"compareValue\":null},{\"label\":\"61-90\",\"fieldname\":\"range3\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"range3\",\"name\":\"61-90\",\"editable\":false,\"compareValue\":null},{\"label\":\"91-120\",\"fieldname\":\"range4\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"range4\",\"name\":\"91-120\",\"editable\":false,\"compareValue\":null},{\"label\":\"121-Above\",\"fieldname\":\"range5\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"range5\",\"name\":\"121-Above\",\"editable\":false,\"compareValue\":null},{\"label\":\"Currency\",\"fieldname\":\"currency\",\"fieldtype\":\"Link\",\"options\":\"Currency\",\"width\":80,\"id\":\"currency\",\"name\":\"Currency\",\"editable\":false,\"compareValue\":null},{\"label\":\"Supplier Group\",\"fieldname\":\"supplier_group\",\"fieldtype\":\"Link\",\"options\":\"Supplier Group\",\"width\":120,\"id\":\"supplier_group\",\"name\":\"Supplier Group\",\"editable\":false,\"compareValue\":null}]}",
+  "letter_head": "FPL Technologies Private Limited",
+  "modified": "2023-03-30 13:42:18.594035",
+  "module": "Accounts",
+  "name": "Accounts Payable - FPL",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Purchase Invoice",
+  "reference_report": "Accounts Payable",
+  "report_name": "Accounts Payable - FPL",
+  "report_script": null,
+  "report_type": "Custom Report",
+  "roles": [
+   {
+    "parent": "Accounts Payable - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Accounts Payable - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Accounts Payable - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Accounts Payable - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Accounts Payable - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier"
+   },
+   {
+    "parent": "Accounts Payable - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier FPL"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2023-01-25 14:30:22.032018",
+  "module": "Fpl Custom",
+  "name": "Purchase Register - GST",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Purchase Invoice",
+  "reference_report": null,
+  "report_name": "Purchase Register - GST",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Purchase Register - GST",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Purchase Register - GST",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Purchase Register - GST",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Purchase Register - GST",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Auditor"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": "",
+  "modified": "2023-01-31 14:53:37.778576",
+  "module": "Custom",
+  "name": "Audit System Hooks",
+  "prepared_report": 0,
+  "query": "",
+  "ref_doctype": "Property Setter",
+  "reference_report": null,
+  "report_name": "Audit System Hooks",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Audit System Hooks",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "System Manager"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"columns\":[{\"label\":\"Provision\",\"fieldname\":\"provision_jv\",\"fieldtype\":\"Link\",\"options\":\"Provision\",\"width\":150,\"id\":\"provision_jv\",\"name\":\"Provision\",\"editable\":false,\"compareValue\":null},{\"label\":\"Name\",\"fieldname\":\"name\",\"fieldtype\":\"Link\",\"options\":\"Journal Entry\",\"width\":150,\"id\":\"name\",\"name\":\"Name\",\"editable\":false,\"compareValue\":null},{\"label\":\"Employee Name/User Name\",\"fieldname\":\"full_name\",\"fieldtype\":\"data\",\"width\":150,\"id\":\"full_name\",\"name\":\"Employee Name/User Name\",\"editable\":false,\"compareValue\":null},{\"label\":\"Date of Provision Entry\",\"fieldname\":\"posting_date\",\"fieldtype\":\"date\",\"width\":150,\"id\":\"posting_date\",\"name\":\"Date of Provision Entry\",\"editable\":false,\"compareValue\":null},{\"label\":\"Vendor Name\",\"fieldname\":\"supplier\",\"fieldtype\":\"Link\",\"options\":\"Supplier\",\"width\":150,\"id\":\"supplier\",\"name\":\"Vendor Name\",\"editable\":false,\"compareValue\":null},{\"label\":\"Debit\",\"fieldname\":\"debit_in_account_currency\",\"fieldtype\":\"Data\",\"width\":120,\"id\":\"debit_in_account_currency\",\"name\":\"Debit\",\"editable\":false,\"compareValue\":null},{\"label\":\"Activity Description\",\"fieldname\":\"user_remark\",\"fieldtype\":\"Data\",\"width\":150,\"id\":\"user_remark\",\"name\":\"Activity Description\",\"editable\":false,\"compareValue\":null},{\"label\":\"From\",\"fieldname\":\"from_date\",\"fieldtype\":\"Date\",\"width\":100,\"id\":\"from_date\",\"name\":\"From\",\"editable\":false},{\"label\":\"To\",\"fieldname\":\"to_date\",\"fieldtype\":\"Date\",\"width\":100,\"id\":\"to_date\",\"name\":\"To\",\"editable\":false},{\"label\":\"Expense Head\",\"fieldname\":\"account\",\"fieldtype\":\"Link\",\"options\":\"Account\",\"width\":150,\"id\":\"account\",\"name\":\"Expense Head\",\"editable\":false,\"compareValue\":null},{\"label\":\"Approved by\",\"fieldname\":\"modified_by\",\"fieldtype\":\"Data\",\"width\":150,\"id\":\"modified_by\",\"name\":\"Approved by\",\"editable\":false,\"compareValue\":null},{\"label\":\"Remark\",\"fieldname\":\"remark\",\"fieldtype\":\"Data\",\"width\":150,\"id\":\"remark\",\"name\":\"Remark\",\"editable\":false,\"compareValue\":null},{\"label\":\"State\",\"fieldname\":\"workflow_state\",\"fieldtype\":\"Data\",\"width\":120,\"id\":\"workflow_state\",\"name\":\"State\",\"editable\":false,\"compareValue\":null}]}",
+  "letter_head": "FPL Technologies Private Limited",
+  "modified": "2023-01-31 11:32:05.053962",
+  "module": "Accounts",
+  "name": "Provision Report - JV",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Journal Entry",
+  "reference_report": "Provision Report",
+  "report_name": "Provision Report - JV",
+  "report_script": null,
+  "report_type": "Custom Report",
+  "roles": [
+   {
+    "parent": "Provision Report - JV",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Provision Report - JV",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Provision Report - JV",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Provision Report - JV",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Employee Self Service"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"columns\":[{\"fieldtype\":\"Link\",\"options\":\"Purchase Invoice\",\"width\":120,\"label\":\"Invoice\",\"fieldname\":\"invoice\",\"id\":\"invoice\",\"name\":\"Invoice\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Date\",\"width\":80,\"label\":\"Posting Date\",\"fieldname\":\"posting_date\",\"id\":\"posting_date\",\"name\":\"Posting Date\",\"editable\":false},{\"fieldtype\":\"\",\"width\":120,\"label\":\"Supplier Id\",\"fieldname\":\"supplier_id\",\"id\":\"supplier_id\",\"name\":\"Supplier Id\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"\",\"width\":120,\"label\":\"Supplier Name\",\"fieldname\":\"supplier_name\",\"id\":\"supplier_name\",\"name\":\"Supplier Name\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Link\",\"options\":\"Supplier Group\",\"width\":120,\"label\":\"Supplier Group\",\"fieldname\":\"supplier_group\",\"id\":\"supplier_group\",\"name\":\"Supplier Group\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"\",\"width\":80,\"label\":\"Tax Id\",\"fieldname\":\"tax_id\",\"id\":\"tax_id\",\"name\":\"Tax Id\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Link\",\"options\":\"Account\",\"width\":120,\"label\":\"Payable Account\",\"fieldname\":\"payable_account\",\"id\":\"payable_account\",\"name\":\"Payable Account\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Link\",\"options\":\"Mode of Payment\",\"width\":80,\"label\":\"Mode of Payment\",\"fieldname\":\"mode_of_payment\",\"id\":\"mode_of_payment\",\"name\":\"Mode of Payment\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Link\",\"options\":\"Project\",\"width\":80,\"label\":\"Project\",\"fieldname\":\"project\",\"id\":\"project\",\"name\":\"Project\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"\",\"width\":120,\"label\":\"Bill No\",\"fieldname\":\"bill_no\",\"id\":\"bill_no\",\"name\":\"Bill No\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Date\",\"width\":80,\"label\":\"Bill Date\",\"fieldname\":\"bill_date\",\"id\":\"bill_date\",\"name\":\"Bill Date\",\"editable\":false},{\"fieldtype\":\"\",\"width\":150,\"label\":\"Remarks\",\"fieldname\":\"remarks\",\"id\":\"remarks\",\"name\":\"Remarks\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"narration\",\"fieldtype\":\"Small Text\",\"label\":\"Narration\",\"insert_after_index\":11,\"link_field\":\"invoice\",\"doctype\":\"Purchase Invoice\",\"width\":100,\"id\":\"narration\",\"name\":\"Narration\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Link\",\"options\":\"Purchase Order\",\"width\":100,\"label\":\"Purchase Order or Provision List\",\"fieldname\":\"purchase_order_or_provision_list\",\"id\":\"purchase_order_or_provision_list\",\"name\":\"Purchase Order or Provision List\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Link\",\"options\":\"Purchase Receipt\",\"width\":100,\"label\":\"Purchase Receipt\",\"fieldname\":\"purchase_receipt\",\"id\":\"purchase_receipt\",\"name\":\"Purchase Receipt\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"currency\",\"label\":\"Currency\",\"fieldtype\":\"Data\",\"width\":80,\"id\":\"currency\",\"name\":\"Currency\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Advertisement & PR expenses - FPL\",\"fieldname\":\"advertisement_&_pr_expenses___fpl\",\"id\":\"advertisement_&_pr_expenses___fpl\",\"name\":\"Advertisement & PR expenses - FPL\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Advertisement Expenses (GST ) - FPL\",\"fieldname\":\"advertisement_expenses_(gst_)___fpl\",\"id\":\"advertisement_expenses_(gst_)___fpl\",\"name\":\"Advertisement Expenses (GST ) - FPL\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Stock Received But Not Billed - FPL\",\"fieldname\":\"stock_received_but_not_billed___fpl\",\"id\":\"stock_received_but_not_billed___fpl\",\"name\":\"Stock Received But Not Billed - FPL\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Temporary Opening - FPL\",\"fieldname\":\"temporary_opening___fpl\",\"id\":\"temporary_opening___fpl\",\"name\":\"Temporary Opening - FPL\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Net Total\",\"fieldname\":\"net_total\",\"id\":\"net_total\",\"name\":\"Net Total\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Input Tax CGST - FPL\",\"fieldname\":\"input_tax_cgst___fpl\",\"id\":\"input_tax_cgst___fpl\",\"name\":\"Input Tax CGST - FPL\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Input Tax SGST - FPL\",\"fieldname\":\"input_tax_sgst___fpl\",\"id\":\"input_tax_sgst___fpl\",\"name\":\"Input Tax SGST - FPL\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"TDS - 194C - Individual - FPL\",\"fieldname\":\"tds___194c___individual___fpl\",\"id\":\"tds___194c___individual___fpl\",\"name\":\"TDS - 194C - Individual - FPL\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Total Tax\",\"fieldname\":\"total_tax\",\"id\":\"total_tax\",\"name\":\"Total Tax\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Grand Total\",\"fieldname\":\"grand_total\",\"id\":\"grand_total\",\"name\":\"Grand Total\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Rounded Total\",\"fieldname\":\"rounded_total\",\"id\":\"rounded_total\",\"name\":\"Rounded Total\",\"editable\":false,\"compareValue\":null},{\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"label\":\"Outstanding Amount\",\"fieldname\":\"outstanding_amount\",\"id\":\"outstanding_amount\",\"name\":\"Outstanding Amount\",\"editable\":false,\"compareValue\":null}]}",
+  "letter_head": "FPL Technologies Private Limited",
+  "modified": "2023-03-30 13:41:17.501878",
+  "module": "Accounts",
+  "name": "Purchase Register - FPL",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Purchase Invoice",
+  "reference_report": "Purchase Register",
+  "report_name": "Purchase Register - FPL",
+  "report_script": null,
+  "report_type": "Custom Report",
+  "roles": [
+   {
+    "parent": "Purchase Register - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Purchase Register - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Purchase Register - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Purchase Register - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier"
+   },
+   {
+    "parent": "Purchase Register - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier FPL"
+   },
+   {
+    "parent": "Purchase Register - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounting JV"
+   },
+   {
+    "parent": "Purchase Register - FPL",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2023-02-01 13:51:27.789659",
+  "module": "Fpl Custom",
+  "name": "Reversal Report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Journal Entry",
+  "reference_report": null,
+  "report_name": "Reversal Report",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Reversal Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Reversal Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Reversal Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Reversal Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Employee Self Service"
+   },
+   {
+    "parent": "Reversal Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"filters\":[],\"fields\":[[\"workflow_state\",\"Purchase Invoice\"],[\"name\",\"Purchase Invoice\"],[\"docstatus\",\"Purchase Invoice\"],[\"title\",\"Purchase Invoice\"],[\"supplier\",\"Purchase Invoice\"],[\"company\",\"Purchase Invoice\"],[\"posting_date\",\"Purchase Invoice\"],[\"grand_total\",\"Purchase Invoice\"],[\"status\",\"Purchase Invoice\"],[\"currency\",\"Purchase Invoice\"],[\"supplier_name\",\"Purchase Invoice\"],[\"base_grand_total\",\"Purchase Invoice\"],[\"outstanding_amount\",\"Purchase Invoice\"],[\"release_date\",\"Purchase Invoice\"]],\"order_by\":\"`tabPurchase Invoice`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"workflow_state\":120,\"name\":120,\"title\":120,\"supplier\":120,\"company\":120,\"posting_date\":120,\"grand_total\":120,\"status\":120,\"currency\":120,\"supplier_name\":120,\"base_grand_total\":120,\"outstanding_amount\":120,\"release_date\":120},\"group_by\":null}",
+  "letter_head": "FPL Technologies Private Limited",
+  "modified": "2023-02-08 16:24:33.090927",
+  "module": "Accounts",
+  "name": "PI Condensed",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Purchase Invoice",
+  "reference_report": null,
+  "report_name": "PI Condensed",
+  "report_script": null,
+  "report_type": "Report Builder",
+  "roles": [
+   {
+    "parent": "PI Condensed",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "PI Condensed",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Auditor"
+   },
+   {
+    "parent": "PI Condensed",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "PI Condensed",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier"
+   },
+   {
+    "parent": "PI Condensed",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier FPL"
+   },
+   {
+    "parent": "PI Condensed",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounting JV"
+   },
+   {
+    "parent": "PI Condensed",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   }
+  ]
+ },
+ {
+  "add_total_row": 0,
+  "columns": [],
+  "disable_prepared_report": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"filters\":[],\"fields\":[[\"workflow_state\",\"Purchase Order\"],[\"name\",\"Purchase Order\"],[\"docstatus\",\"Purchase Order\"],[\"supplier_name\",\"Purchase Order\"],[\"supplier\",\"Purchase Order\"],[\"status\",\"Purchase Order\"],[\"customized_document_status\",\"Purchase Order\"],[\"manger_approval\",\"Purchase Order\"],[\"grand_total\",\"Purchase Order\"],[\"transaction_date\",\"Purchase Order\"],[\"company\",\"Purchase Order\"],[\"per_received\",\"Purchase Order\"],[\"currency\",\"Purchase Order\"],[\"owner\",\"Purchase Order\"],[\"modified_by\",\"Purchase Order\"],[\"net_total\",\"Purchase Order\"],[\"base_grand_total\",\"Purchase Order\"]],\"order_by\":\"`tabPurchase Order`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"workflow_state\":120,\"name\":120,\"supplier_name\":120,\"supplier\":120,\"status\":120,\"customized_document_status\":120,\"manger_approval\":120,\"grand_total\":120,\"transaction_date\":120,\"company\":120,\"per_received\":120,\"currency\":120,\"owner\":120,\"modified_by\":120,\"net_total\":120,\"base_grand_total\":120},\"group_by\":null}",
+  "letter_head": "FPL Technologies Private Limited",
+  "modified": "2023-02-16 17:59:52.982724",
+  "module": "Buying",
+  "name": "Purchase Order or Provision List",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Purchase Order",
+  "reference_report": null,
+  "report_name": "Purchase Order or Provision List",
+  "report_script": null,
+  "report_type": "Report Builder",
+  "roles": [
+   {
+    "parent": "Purchase Order or Provision List",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase Manager"
+   },
+   {
+    "parent": "Purchase Order or Provision List",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Purchase Order or Provision List",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Purchase Order or Provision List",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Supplier FPL"
+   }
+  ]
+ }
+]
