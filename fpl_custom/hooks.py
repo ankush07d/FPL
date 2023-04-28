@@ -42,7 +42,7 @@ doctype_js = {
 
 # Fixtures
 # fixtures = [{"dt":'Report',"filters":[["name", "in", ("Purchase Order or Provision List","Accounts Payable - FPL","Purchase Register - FPL","PI Condensed","Audit System Hooks","TDS Payable Monthly - FPL","Reversal Report","Provision Report - JV","Purchase Register - GST")]]}]
-fixtures = ["Mode of Payment"]
+fixtures = ["Account","GST HSN Code", "Address","Item"]
 # "Account",
 # "Fiscal Year",
 # "Accounting Dimension",
